@@ -18,7 +18,7 @@ const Bookshelf = () => {
           {bookshelf.map((book) => (
             <li key={book.key} className="book-card">
               <h2>Book Title: {book.title}</h2>
-              {book.author_name && <p>Author: {book.author_name[0]}</p>}
+              {book.author_name && <p>Author: {book.author_name[0]}</p>} 
             </li>
           ))}
         </ul>
